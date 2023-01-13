@@ -1,3 +1,4 @@
+/*欢迎使用THINICE薄冰CSS框架，该框架由iCE CUBE开发，GITHUB：https://github.com/iDea-iCE-CUBE/ThiniceOpenSource*/
 body {
     background-color: #fafafa;
     color: #2c353e;
@@ -6,7 +7,6 @@ body {
     /*卡片*/
     border-radius: 10px;
     background-color: #FFF;
-    display: inline-block;
     min-width: 10px;
     min-height: 10px;
     padding: 1em;
@@ -19,7 +19,6 @@ body {
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     border-radius: 10px;
-    display: inline-block;
     min-width: 10px;
     min-height: 10px;
     padding: 1em;
@@ -31,7 +30,7 @@ body {
     color: white;
 }
 
-h1, ul, ol {
+h1,h2,h3,h4,h5,h6,ul, ol {
     margin: 0;
 }
 
@@ -146,6 +145,16 @@ a:hover {
     /*红色按钮*/
     color: white;
     background-color: #ff3131;
+}
+
+.bg-button-lights {
+    /*光源色按钮*/
+    color: white;
+    background:linear-gradient(121deg, #FEE102 -20%, #FCA601 70%);
+}
+.bg-button-lights:hover{
+    filter: brightness(100%) !important;
+    box-shadow: 0px 0px 30px 0px rgba(252, 166, 1, 0.3);
 }
 @media screen and (min-width: 700px) {
     /*隐藏移动元素*/
