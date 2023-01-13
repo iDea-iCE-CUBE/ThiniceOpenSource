@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <title>iCE Web框架索引</title>
+    <link rel="stylesheet" type="text/css" href="thinice.css">
+    <script src="TIsideMenu.js"></script>
+    <style>
+        /*非框架内容*/
+        .load1 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        input, textarea, select {
+            flex-grow: 1;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+<div id="sideMenu"></div>
+<div id="maskingFilm"></div>
+<div class="card" style="display:flex;flex-direction: column;">
+    <h1>欢迎使用Thinice框架</h1>
+    <p>&nbsp;&nbsp;薄冰THINICE框架是一款由<a href="https://iceweb.top">iCE CUBE</a>开发的开源的轻量前端页面框架，文件未压缩大小仅4kb，只需要引入CSS文件即可使用，该框架具有以下内容
+    </p>
+</div>
+<div class="card" style="display: flex;flex-direction: column;justify-content: space-between;">
+    <h1>表单</h1>
+    <div class="load1">
+        <input placeholder="文本框" type="text">
+        <input placeholder="密码框" type="password">
+        <input disabled placeholder="邮件框+禁用" type="email">
+    </div>
+    <textarea placeholder="多行框"></textarea>
+    <div class="load1">
+        <input type="button" value="默认按钮">
+        <input disabled type="button" value="默认按钮并禁用">
+        <input class="bg-button-blue" type="button" value="蓝色按钮(class='bg-button-blue')">
+        <input class="bg-button-green" type="button" value="绿色(class='bg-button-green')">
+        <input class="bg-button-red" type="button" value="红色(class='bg-button-red')">
+    </div>
+    <select>
+        <option>下拉菜单</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+    </select>
+    <div>
+        <label><input checked type="checkbox" value="something">复选框</label>
+        <label><input checked type="radio" value="option1">单选框</label>
+        <input type="range">
+    </div>
+</div>
+<div style="display:flex;flex-wrap:wrap;">
+    <div class="card" style="flex-grow:1"><h1>这是一张卡片</h1>
+        <p>&nbsp;&nbsp;使class="card"生成一张卡片</p></div>
+    <div class="glass gl-black" style="flex-grow:1;margin-left:5px"><h1>这是一块黑色玻璃</h1>
+        <p>&nbsp;&nbsp;使class="glass gl-black"生成一块黑色玻璃(也可以不加gl-black，将生成白色玻璃)(纯色背景效果不明显)</p></div>
+</div>
+<div class="card" id="sideMenuButton" style="display:flex;flex-direction: column">
+    <h1>侧边栏菜单</h1>
+    <p>&nbsp;&nbsp;点击打开侧边栏菜单，该功能需要引入JS文件，如果需要使用侧边栏功能，请引入TIsideMenu.js</p>
+    <p>&nbsp;&nbsp;你需要在在body标签里创建两个DIV，他们的id分别为'sideMenu'与'maskingFilm'.<br/>&nbsp;&nbsp;然后再在你创造的任意一个元素上，将他的id命名为'sideMenuButton'，点击这个元素即可打开侧边栏'
+    </p>
+</div>
+<div class="card"style="display:flex;flex-direction: column">
+    <h1>隐藏元素</h1>
+    <p>&nbsp;&nbsp;你只需要为元素的类加上"peElement",他将只会在移动端设备上显示。加上类"pcElement"将只会在桌面端显示。<br/>&nbsp;&nbsp;例：<i class="pcElement">该元素仅PC可见</i><i class="peElement">该元素仅PE可见</i></p>
+</div>
+<div class="card" style="display:flex;flex-direction: column">
+    <h1>其他</h1>
+    <p>&nbsp;&nbsp;除此之外，还有以下优化</p>
+    <ul>
+        <li>去除了标题、列表标签的外边距</li>
+        <li>优化a标签样式</li>
+    </ul>
+</div>
+</body>
+</html>
