@@ -1,5 +1,5 @@
-# Welcome to the Thinice framework
-  The Thin Ice THINICE framework is a product developed by [iCE CUBE]（ https://iceweb.top ）Developed an open-source lightweight front-end page framework with an uncompressed file size of only 4kb, which can be used by simply introducing CSS files. The framework has the following features
+# Welcome to the THINICE CSS framework
+  The THINICE framework is a product developed by [iCE CUBE]（ https://iceweb.top ）Developed an open-source lightweight front-end page framework with an uncompressed file size of only 4kb, which can be used by simply introducing CSS files. The framework has the following features
 
 ## Form Elements
   Modified the style of almost all form elements to make them more aesthetically pleasing and concise
@@ -27,7 +27,7 @@
   *Removed the outer margins of titles and list labels
   *Optimize a label style
 
-# 欢迎使用Thinice框架
+# 欢迎使用THINICE CSS框架
   薄冰THINICE框架是一款由[iCE CUBE](https://iceweb.top)开发的开源的轻量前端页面框架，文件未压缩大小仅4kb，只需要引入CSS文件即可使用，该框架具有以下内容
 
 ## 表单元素
